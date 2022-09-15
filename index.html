@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/pop-up.css">
+    <title>Analisa Números</title>
+</head>
+<body>
+    <section class="pop-up-scren">
+        <div class="box-pop-up">
+            <img src="assets/imagens/botao-fechar.png" alt="botao-fechar" id="fecha-pop-up">
+            <div id="res-analise">
+                <h2>Analise</h2>
+                <p id="quant-num">...</p>
+                <p id="maior-num">...</p>
+                <p id="menor-num">...</p>
+                <p id="soma-num">...</p>
+                <p id="media-num">...</p>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <h2>Analisa Números</h2>
+    </header> 
+    <main>
+        <section class="inicio">
+            <div>
+                <img src="assets/imagens/imagem-analise.svg" alt="imagem-analise">
+            </div>
+            <div class="form">
+                <h1>Analisamos seus numéricos</h1>
+                <p>Adicione seus números aqui:</p>
+                <input type="text" name="number" id="input-number" placeholder="ex: 1" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" >
+                <p id="alerta">Preencha o campo corretamente! <br> Somente numeros!</p>
+                <input type="button" value="Adicionar" class="botao" onclick="adicionaNumbers()">
+            </div>
+        </section>
+        <section class="area-base">
+            <div id="res">
+                <input type="button" value="Analisar" class="botao analise" onclick="AnalisaNumbers()">
+                <h2>Sua base numérica</h2>
+            </div>
+        </section>
+    </main>
+   
+    <script src="script.js"></script>
+</body>
+</html>
