@@ -14,9 +14,10 @@ function adicionaNumbers() {
         campoRes.appendChild(elementoCriado)
         elementoCriado.innerText = number
         agrupandoNumbers(number)
+        inputNumber.value = ''
+        inputNumber.focus()
     }
-    inputNumber.value = ''
-    inputNumber.focus()
+    
 }
 
 function agrupandoNumbers(x){
