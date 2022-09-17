@@ -1,4 +1,8 @@
 # analisador-de-numeros
- Analina sua base númérica. Projeto para treino dos fundamentos.
+ Analisa sua base númérica. Projeto para treino dos fundamentos.
 <br>
-<img src="imagens/CPT2209151620-1415x758.gif" alt="gif-demostração">
+GitHub Pages: https://kauecouto.github.io/analisador-de-numeros/
+<br>
+<br>
+<img src="assets/imagens/CPT2209151620-1415x758.gif" alt="gif-demostração">
+
